@@ -38,19 +38,3 @@ services:
     image: udagram-frontend:local
     ports:
       - "8100:80"
-
-#   db:
-#     image: postgres:14.1-alpine
-#     restart: always
-#     environment:
-#       - POSTGRES_USER=postgres
-#       - POSTGRES_PASSWORD=mypassword
-#       - POSTGRES_DB=postgres
-#     ports:
-#       - '5432:5432'
-#     volumes:    
-#       - data:/var/lib/postgresql/data
-
-
-# volumes:
-#   data:
