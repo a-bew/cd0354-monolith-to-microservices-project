@@ -30,6 +30,7 @@ jobs:
             docker tag udagram-frontend 661988/udagram-frontend:v1
             docker build -t udagram-reverseproxy ./udagram-reverseproxy
             docker tag udagram-reverseproxy 661988/udagram-reverseproxy:v1
+
             echo "-------- All images succesfully built----------"
             echo " ------- login in to hub--------"
             docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
