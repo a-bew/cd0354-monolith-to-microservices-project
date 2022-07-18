@@ -1,4 +1,4 @@
-apiVersion: apps/v1
+apiVersion: apps/v2
 kind: Deployment
 metadata:
   name: backend-feed
@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: backend-feed
-          image: docker.io/661988/udagram-api-feed:v1
+          image: docker.io/661988/udagram-api-feed:v2
           ports:
             - containerPort: 80
           resources:
