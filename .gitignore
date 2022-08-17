@@ -42,4 +42,4 @@ venv/
 !.elasticbeanstalk/*.global.yml
 set_env.sh
 
-udacity-api-old
+udacity-api-oldset_env.sh

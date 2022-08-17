@@ -19,10 +19,27 @@ spec:
             - containerPort: 80
           resources:
             limits:
-              cpu: 500m
+              cpu: 1000m
             requests:
-              cpu: 200m
-
+              cpu: 500m
+      	  env:
+            - name: POSTGRES_USERNAME
+              value: postgres
+            - name: POSTGRES_PASSWORD
+              value: postgres
+            - name: POSTGRES_HOST
+              value: database-1.cofxqdcklpio.us-east-1.rds.amazonaws.com
+            - name: POSTGRES_DB
+              value: postgres
+            - name: AWS_BUCKET
+              value: mybucket939774296840
+            - name: AWS_REGION
+              value: us-east-1
+            - name: AWS_PROFILE
+              value: microservice
+            - name: JWT_SECRET
+              value: testing
+            - URL: http://localhost:8100
 ---
 apiVersion: v1
 kind: Service
