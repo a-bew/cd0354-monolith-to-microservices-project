@@ -22,7 +22,7 @@ spec:
               cpu: 1000m
             requests:
               cpu: 500m
-      	  env:
+          env:
             - name: POSTGRES_USERNAME
               value: postgres
             - name: POSTGRES_PASSWORD
@@ -39,7 +39,8 @@ spec:
               value: microservice
             - name: JWT_SECRET
               value: testing
-            - URL: http://localhost:8100
+            - name: URL
+              value: http://localhost:8100
 ---
 apiVersion: v1
 kind: Service

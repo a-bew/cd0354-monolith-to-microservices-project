@@ -39,7 +39,8 @@ spec:
               value: microservice
             - name: JWT_SECRET
               value: testing
-            - URL: http://localhost:8100
+            - name: URL
+              value: http://localhost:8100
 
 ---
 apiVersion: v1

@@ -4,11 +4,11 @@ metadata:
   name: env-config
 data:
   POSTGRES_USERNAME: postgres
-  POSTGRES_PASSWORD: x6g%36m4#Jfj
-  POSTGRES_HOST: database-1.ccqcwsstenvo.us-east-1.rds.amazonaws.com
+  POSTGRES_PASSWORD: postgres
+  POSTGRES_HOST: database-1.cofxqdcklpio.us-east-1.rds.amazonaws.com
   POSTGRES_DB: postgres
   AWS_BUCKET: udadram-7273-8208-7170-dev
-  AWS_REGION: us-east-1
+  AWS_REGION: us-east-2
   AWS_PROFILE: default
   JWT_SECRET: testing
   URL: http://localhost:8100
