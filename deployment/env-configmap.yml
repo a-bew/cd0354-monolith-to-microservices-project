@@ -7,8 +7,8 @@ data:
   POSTGRES_PASSWORD: postgres
   POSTGRES_HOST: database-1.cofxqdcklpio.us-east-1.rds.amazonaws.com
   POSTGRES_DB: postgres
-  AWS_BUCKET: udadram-7273-8208-7170-dev
-  AWS_REGION: us-east-2
+  AWS_BUCKET: mybucket939774296840
+  AWS_REGION: us-east-1
   AWS_PROFILE: default
   JWT_SECRET: testing
-  URL: http://localhost:8100
+  URL: http://localhost:8080
